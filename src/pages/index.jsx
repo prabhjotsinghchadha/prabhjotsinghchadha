@@ -194,7 +194,7 @@ function Resume() {
           </li>
         ))}
       </ol>
-      <Button href="#" variant="secondary" className="group mt-6 w-full">
+      <Button href="https://drive.google.com/file/d/1iTOpzoSPtU0hbCFbc2s8OmU_xzj9aND6/view?usp=sharing" variant="secondary" className="group mt-6 w-full">
         Download CV
         <ArrowDownIcon className="h-4 w-4 stroke-zinc-400 transition group-active:stroke-zinc-600 dark:group-hover:stroke-zinc-50 dark:group-active:stroke-zinc-50" />
       </Button>
@@ -244,12 +244,13 @@ export default function Home({ articles }) {
       <Container className="mt-9">
         <div className="max-w-2xl">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-            Software Engineer, freelancer, and Indie Developer.
+            Prabhjot Singh Chadha, Full Stack Engineer - Crafting Innovative solutions
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            I’m Prabhjot, a Software Engineer and Freelancer based in India.
-            I am multidisciplinary developer who loves the intersection of art and code!
-            I work as a digital nomad/remote developer and make apps for living
+            Welcome to my portfolio where innovation and creativity meet.
+            I am Prabhjot Singh, a Full Stack Engineer with a passion for turning ideas into reality.
+            With over 5 years of experience, I specialize in creating elegant solutions for complex problems.
+            Take a look around to see my recent projects and let us work together to bring your vision to life.
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink
@@ -258,7 +259,7 @@ export default function Home({ articles }) {
               icon={TwitterIcon}
             />
             <SocialLink
-              href="https://instagram.com/insta_prabhjot"
+              href="https://instagram.com/prabhjot.singh.chadha"
               aria-label="Follow on Instagram"
               icon={InstagramIcon}
             />
