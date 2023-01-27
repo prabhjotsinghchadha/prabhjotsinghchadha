@@ -18,17 +18,17 @@ const projects = [
     logo: logoUpwork,
   },
   {
-    name: 'Animaginary',
+    name: 'iMessage Clone',
     description:
-      'High performance web animation library, hand-written in optimized WASM.',
-    link: { href: '#', label: 'github.com' },
+      'An iMessage clone app built using Next.js for the frontend, GraphQL for the API, Apollo for handling GraphQL operations, Prisma for database management, and MongoDB as the database.',
+    link: { href: 'https://github.com/prabhjotsinghchadha/iMessage_Graphql', label: 'github.com' },
     logo: logoAnimaginary,
   },
   {
-    name: 'HelioStream',
+    name: 'AirBnB Clone',
     description:
-      'Real-time video streaming library, optimized for interstellar transmission.',
-    link: { href: '#', label: 'github.com' },
+      'An Airbnb clone built using Next.js for the frontend.',
+    link: { href: 'https://airbnb-clone-demo-pi.vercel.app/', label: 'Demo' },
     logo: logoHelioStream,
   },
   {
