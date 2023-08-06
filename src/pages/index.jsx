@@ -6,18 +6,14 @@ import clsx from 'clsx'
 import { Button } from '@/components/Button'
 import { Card } from '@/components/Card'
 import { Container } from '@/components/Container'
-import {
-  TwitterIcon,
-  InstagramIcon,
-  GitHubIcon,
-  LinkedInIcon,
-} from '@/components/SocialIcons'
+import { TwitterIcon, InstagramIcon, GitHubIcon, LinkedInIcon } from '@/components/SocialIcons'
 import image1 from '@/images/photos/image-1.jpg'
 import image2 from '@/images/photos/image-2.jpg'
 import image3 from '@/images/photos/image-3.jpg'
 import image4 from '@/images/photos/image-4.jpg'
 import image5 from '@/images/photos/image-5.jpg'
 import logoUpwork from '@/images/logos/upwork.svg'
+import logofps from '@/images/logos/fps.png'
 import logoltts from '@/images/logos/ltts.png'
 import { generateRssFeed } from '@/lib/generateRssFeed'
 import { getAllArticles } from '@/lib/getAllArticles'
@@ -85,9 +81,7 @@ function ArrowDownIcon(props) {
 function Article({ article }) {
   return (
     <Card as="article">
-      <Card.Title href={`/articles/${article.slug}`}>
-        {article.title}
-      </Card.Title>
+      <Card.Title href={`/articles/${article.slug}`}>{article.title}</Card.Title>
       <Card.Eyebrow as="time" dateTime={article.date} decorate>
         {formatDate(article.date)}
       </Card.Eyebrow>
@@ -137,12 +131,22 @@ function Newsletter() {
 function Resume() {
   let resume = [
     {
+      company: 'FPS Lounge',
+      title: 'Tech Lead',
+      logo: logofps,
+      start: 'Mar 2023',
+      end: {
+        label: 'Present',
+        dateTime: new Date().getFullYear(),
+      },
+    },
+    {
       company: 'Upwork',
       title: 'Freelancer',
       logo: logoUpwork,
       start: '2021',
       end: {
-        label: 'Present',
+        label: '2022',
         dateTime: new Date().getFullYear(),
       },
     },
@@ -194,7 +198,11 @@ function Resume() {
           </li>
         ))}
       </ol>
-      <Button href="https://drive.google.com/file/d/1iTOpzoSPtU0hbCFbc2s8OmU_xzj9aND6/view?usp=sharing" variant="secondary" className="group mt-6 w-full">
+      <Button
+        href="https://drive.google.com/file/d/1iTOpzoSPtU0hbCFbc2s8OmU_xzj9aND6/view?usp=sharing"
+        variant="secondary"
+        className="group mt-6 w-full"
+      >
         Download CV
         <ArrowDownIcon className="h-4 w-4 stroke-zinc-400 transition group-active:stroke-zinc-600 dark:group-hover:stroke-zinc-50 dark:group-active:stroke-zinc-50" />
       </Button>
@@ -244,13 +252,20 @@ export default function Home({ articles }) {
       <Container className="mt-9">
         <div className="max-w-2xl">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-            Prabhjot Singh Chadha, Full Stack Engineer - Crafting Innovative solutions
+            Prabhjot Singh Chadha - Full Stack Visionary, Building Future-Ready
+            Solutions
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            Welcome to my portfolio where innovation and creativity meet.
-            I am Prabhjot Singh, a Full Stack Engineer with a passion for turning ideas into reality.
-            With over 5 years of experience, I specialize in creating elegant solutions for complex problems.
-            Take a look around to see my recent projects and let us work together to bring your vision to life.
+            Welcome to my portfolio – where innovation and creativity converge. I am
+            Prabhjot Singh, a Full Stack Engineer driven by the excitement of
+            transforming concepts into reality. Presently, I lead the charge at FPS
+            Lounge, orchestrating a skilled team of developers, steering key product
+            decisions, and relentlessly pushing the frontiers of innovation. With a
+            solid foundation of over 6 years in the industry, I&apos;ve mastered the art
+            of sculpting elegant solutions out of complex problems. Delve into my
+            portfolio to witness the seamless blend of technical expertise and
+            creativity that fuels my work. I look forward to sparking a conversation
+            with you.
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink
@@ -301,9 +316,7 @@ export async function getStaticProps() {
 
   return {
     props: {
-      articles: (await getAllArticles())
-        .slice(0, 4)
-        .map(({ component, ...meta }) => meta),
+      articles: (await getAllArticles()).slice(0, 4).map(({ component, ...meta }) => meta),
     },
   }
 }
