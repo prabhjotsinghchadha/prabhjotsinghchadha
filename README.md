@@ -1,7 +1,7 @@
 # 🪂 Prabhjot Singh Chadha
-**`Digital Craftman (Developer/Freelancer)`**
+**`Digital Craftman`**
 
-I'm an indie full-stack developer and content creator building my version of the digital world one step at a time. All coding projects are built from the ground up, from planning and designing all the way to solving real-life problems with code. 
+I'm an CTO and Full Stacks Developer at FPS Lounge and content creator building my version of the digital world one step at a time. All coding projects are built from the ground up, from planning and designing all the way to solving real-life problems with code. 
 
 ---
 
@@ -24,11 +24,11 @@ I'm an indie full-stack developer and content creator building my version of the
 
 #
 
-### 📊 Stats
+<!--  ### 📊 Stats
 
 ![Prabhjot's GitHub stats](https://github-readme-stats.vercel.app/api?username=prabhjotsinghchadha&show_icons=true&theme=gruvbox)
 
-<!-- ![GitHub Streak](https://streak-stats.demolab.com?user=prabhjotsinghchadha&theme=gruvbox&border_radius=4.5) -->
+![GitHub Streak](https://streak-stats.demolab.com?user=prabhjotsinghchadha&theme=gruvbox&border_radius=4.5) -->
 
 #
 
