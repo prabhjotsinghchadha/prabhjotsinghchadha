@@ -120,7 +120,7 @@ export default function Page() {
                                         className="bg-gradient-to-r from-green-600 to-emerald-500 hover:from-green-700 hover:to-emerald-600 text-white"
                                     >
                                         <Link
-                                            href="https://calendar.app.google/Sz3q9njmFQ3XMQ4y8"
+                                            href="https://cal.com/prabhjot-singh-chadha"
                                             target="_blank"
                                             rel="noopener noreferrer"
                                         >

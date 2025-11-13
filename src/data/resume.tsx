@@ -8,9 +8,9 @@ export const DATA = {
     location: "MP, India",
     locationLink: "https://www.google.com/maps/place/madhyapradesh",
     description:
-        "Chief Technology Officer & SAAS Expert with 8 years of experience in full-stack development, payment integrations, and digital innovation.",
+        "Fractional CTO & SAAS Expert with 8 years of experience in full-stack development, payment integrations, and digital innovation.",
     summary:
-        "CTO & SAAS Expert with 8 years of experience in full-stack development, payment integrations, and digital innovation. At FPS Lounge, led a cross-functional team, boosting user engagement by 40% in just six months. Expert in Next.js, Node.js, TypeScript, Firebase, Unity game development, and digital art creation. Specialized in remote work with a professional home office setup, delivering high-quality solutions for clients worldwide.",
+        "Fractional CTO & SAAS Expert with 8 years of experience in full-stack development, payment integrations, and digital innovation. Friendly and pragmatic Fractional CTO helping startups and growing teams make smarter technology decisions. I help bridge business goals with technical strategy to deliver scalable, efficient solutions. At FPS Lounge, led a cross-functional team, boosting user engagement by 40% in just six months. Expert in Next.js, Node.js, TypeScript, Firebase, Unity game development, and digital art creation. Specialized in remote work with a professional home office setup, delivering high-quality solutions for clients worldwide.",
     avatarUrl: "/me.jpeg",
 
     // Professional Stats
@@ -246,12 +246,12 @@ export const DATA = {
             href: "https://fpslounge.com",
             badges: [],
             location: "Remote",
-            title: "Chief Technology Officer",
+            title: "Fractional CTO",
             logoUrl: "/fpslounge.png",
             start: "March 2023",
             end: "July 2025",
             description:
-                "Started as Senior Lead Engineer and was promoted to CTO. Single-handedly built the entire platform from scratch—initially on WordPress, then migrated to React, and later Next.js for performance and scalability. Developed the backend using Firebase & Google Cloud Platform (GCP), ensuring a robust and scalable infrastructure. Created a thriving platform where thousands of gamers book coaching sessions and earn money. Played a key role in talking to angel investors, helping secure funding and drive growth.",
+                "Started as Senior Lead Engineer and was promoted to Fractional CTO. Single-handedly built the entire platform from scratch—initially on WordPress, then migrated to React, and later Next.js for performance and scalability. Developed the backend using Firebase & Google Cloud Platform (GCP), ensuring a robust and scalable infrastructure. Created a thriving platform where thousands of gamers book coaching sessions and earn money. Played a key role in talking to angel investors, helping secure funding and drive growth.",
         },
         {
             company: "Upwork",
