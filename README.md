@@ -1,39 +1,85 @@
-# 🪂 Prabhjot Singh Chadha
-**`Digital Craftman`**
+# 👋 Hi, I'm Prabhjot Singh Chadha
 
-I'm an CTO and Full Stacks Developer at FPS Lounge and content creator building my version of the digital world one step at a time. All coding projects are built from the ground up, from planning and designing all the way to solving real-life problems with code. 
+**Full-Stack Engineer | Former CTO | System Architect**
+
+I build scalable digital products from 0 → production.  
+10+ years of experience designing, architecting, and shipping full-stack systems used by real customers.
+
+Previously CTO at a US-based startup https://fpslounge.com where I rebuilt the entire stack and shipped a live platform serving 10,500+ active users with real payment flows.
 
 ---
 
-### 🧰 Languages and Tools
+## 🧠 What I Do
 
-<img align="left" alt="TypeScript" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg" />
-<img align="left" alt="Git" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
-<img align="left" alt="Linux" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" />
-<img align="left" alt="HTML" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg" />
-<img align="left" alt="CSS" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg" />
-<img align="left" alt="JavaScript" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" />
-<img align="left" alt="React" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
-<img align="left" alt="NodeJS" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
-<img align="left" alt="Python" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-plain.svg" />
-<img align="left" alt="C++" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-line.svg" />
-<img align="left" alt="GitHub" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-<img align="left" alt="Bash" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" />
-<br />
+- Architect end-to-end systems (Frontend + Backend + DB + Infra)
+- Design scalable APIs and real-time systems
+- Build SaaS products from scratch
+- Integrate Payments (Stripe, PayPal)
+- Work with Web3 & Smart Contracts
+- Optimize performance & infrastructure costs
 
-#
+---
 
-### 📊 Stats
+## 🏗 Tech Stack I Work With
 
-<!-- ![Prabhjot's GitHub stats](https://github-readme-stats.vercel.app/api?username=prabhjotsinghchadha&show_icons=true&theme=gruvbox) -->
+**Frontend**
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
 
-![GitHub Streak](https://streak-stats.demolab.com?user=prabhjotsinghchadha&theme=gruvbox&border_radius=4.5)
+**Backend**
+- Node.js
+- Go (Fiber)
+- Firebase
+- PostgreSQL (Neon)
+- Drizzle ORM
 
-#
+**Infra**
+- Vercel
+- GCP
+- Docker
+- Redis (Upstash)
+- WebSockets
 
-<details>
- <summary><h3>👨‍💻 Prabhjot's Coding Journey</h3></summary>
-   I started my coding journey as a naive computer science student with a passion to learn everything I could about this programming world - code, unix, linux, theory. And all the while, teaching myself iOS development with a dream to build my own app, but that soon got overshadowed by my desire to excel in Java. A desire that landed me a full-stack software engineering job upon graduation
+**Other**
+- Solidity
+- The Graph
+- Chartmetric API Integrations
+- System Design
 
-[website]: https://prabhjotsinghchadha.com/
-[website]: https://prabhjot-portfolio.vercel.app/
+---
+
+## 🚀 Selected Work
+
+### 🔹 FPS Lounge (Former CTO)
+Rebuilt and scaled the platform architecture.
+- Commission-based booking system
+- Payment integrations
+- Admin dashboards
+- Production deployment & monitoring
+- 10,500+ active users
+
+### 🔹 Prediction Market Research
+Deep dive into AMM math, liquidity pools, smart contracts, and on-chain settlement mechanics.
+
+### 🔹 Music Market Data Platform
+Building a real-time artist analytics engine using Chartmetric, streaming APIs, and market-based mechanics.
+
+---
+
+## 🧭 Engineering Philosophy
+
+- Build simple.
+- Scale intentionally.
+- Ship fast.
+- Optimize later.
+- Own the architecture.
+
+---
+
+## 📫 Connect With Me
+
+🌍 Website: https://prabhjotsinghchadha.com  
+📧 Email: prabhjottechs@gmail.com 
+💼 Open to remote opportunities (US / Global)
