@@ -19,13 +19,48 @@ export const metadata: Metadata = {
         template: `%s | ${DATA.name}`,
     },
     description: DATA.description,
+    keywords: [
+        "Prabhjot Singh Chadha",
+        "Fractional CTO",
+        "SAAS Expert",
+        "Full Stack Developer",
+        "Next.js Developer",
+        "React Developer",
+        "TypeScript",
+        "Node.js",
+        "Stripe Integration",
+        "Payment Integration",
+        "Firebase",
+        "Google Cloud Platform",
+        "Unity Game Development",
+        "Remote CTO",
+        "India",
+        "Madhya Pradesh",
+        "MariNation",
+        "FPS Lounge",
+        "Software Engineer",
+        "Web Development",
+    ],
+    authors: [{ name: DATA.name, url: DATA.url }],
+    creator: DATA.name,
+    alternates: {
+        canonical: DATA.url,
+    },
     openGraph: {
-        title: `${DATA.name}`,
+        title: `${DATA.name} — Fractional CTO & SAAS Expert`,
         description: DATA.description,
         url: DATA.url,
         siteName: `${DATA.name}`,
         locale: "en_US",
         type: "website",
+        images: [
+            {
+                url: "/og-image.png",
+                width: 1200,
+                height: 630,
+                alt: `${DATA.name} — Fractional CTO & SAAS Expert`,
+            },
+        ],
     },
     robots: {
         index: true,
@@ -39,13 +74,18 @@ export const metadata: Metadata = {
         },
     },
     twitter: {
-        title: `${DATA.name}`,
+        title: `${DATA.name} — Fractional CTO & SAAS Expert`,
+        description: DATA.description,
         card: "summary_large_image",
+        creator: "@tweet_prabhjot",
+        images: ["/og-image.png"],
     },
-    verification: {
-        google: "",
-        yandex: "",
+    icons: {
+        icon: "/favicon.ico",
+        shortcut: "/favicon.ico",
+        apple: "/apple-touch-icon.png",
     },
+    category: "technology",
 };
 
 export default function RootLayout({

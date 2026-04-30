@@ -34,6 +34,86 @@ const BLUR_FADE_DELAY = 0.04;
 export default function Page() {
     return (
         <main className="flex flex-col min-h-[100dvh] space-y-10">
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                    __html: JSON.stringify([
+                        {
+                            "@context": "https://schema.org",
+                            "@type": "Person",
+                            name: "Prabhjot Singh Chadha",
+                            url: "https://prabhjotsinghchadha.com",
+                            image: "https://prabhjotsinghchadha.com/me.jpeg",
+                            description:
+                                "Fractional CTO & SAAS Expert with 8 years of experience in full-stack development, payment integrations, and digital innovation.",
+                            jobTitle: "Fractional CTO",
+                            worksFor: {
+                                "@type": "Organization",
+                                name: "MariNation",
+                                url: "https://marination.app",
+                            },
+                            address: {
+                                "@type": "PostalAddress",
+                                addressRegion: "Madhya Pradesh",
+                                addressCountry: "IN",
+                            },
+                            email: "prabhjottechs@gmail.com",
+                            telephone: "+91-8871143770",
+                            sameAs: [
+                                "https://github.com/prabhjotsinghchadha",
+                                "https://linkedin.com/in/mrprabhjot/",
+                                "https://twitter.com/tweet_prabhjot",
+                                "https://discord.gg/7KeTc29CEd",
+                            ],
+                            knowsAbout: [
+                                "Next.js",
+                                "React",
+                                "TypeScript",
+                                "Node.js",
+                                "SAAS Architecture",
+                                "Stripe",
+                                "Firebase",
+                                "Google Cloud Platform",
+                                "Unity",
+                                "Full-Stack Development",
+                            ],
+                        },
+                        {
+                            "@context": "https://schema.org",
+                            "@type": "WebSite",
+                            name: "Prabhjot Singh Chadha",
+                            url: "https://prabhjotsinghchadha.com",
+                            description:
+                                "Portfolio of Prabhjot Singh Chadha — Fractional CTO & SAAS Expert",
+                            author: {
+                                "@type": "Person",
+                                name: "Prabhjot Singh Chadha",
+                            },
+                        },
+                        {
+                            "@context": "https://schema.org",
+                            "@type": "ProfessionalService",
+                            name: "Prabhjot Singh Chadha — Fractional CTO Services",
+                            url: "https://prabhjotsinghchadha.com",
+                            description:
+                                "Fractional CTO and full-stack engineering services: SAAS development, payment integrations, cloud architecture, and technical team leadership.",
+                            provider: {
+                                "@type": "Person",
+                                name: "Prabhjot Singh Chadha",
+                            },
+                            areaServed: "Worldwide",
+                            serviceType: [
+                                "Fractional CTO",
+                                "Full-Stack Development",
+                                "SAAS Development",
+                                "Payment Integration",
+                                "Cloud Architecture",
+                                "Technical Leadership",
+                            ],
+                        },
+                    ]),
+                }}
+            />
             <section id="hero" className="relative py-8 overflow-hidden">
                 {/* Floating Background Elements */}
                 <div className="absolute inset-0 -z-10">
