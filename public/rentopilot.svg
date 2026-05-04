@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 80" role="img" aria-label="Rentopilot">
+  <defs>
+    <linearGradient id="r-bg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0f766e"/>
+      <stop offset="100%" stop-color="#115e59"/>
+    </linearGradient>
+  </defs>
+  <rect width="120" height="80" rx="12" fill="url(#r-bg)"/>
+  <path d="M28 52V36h12v16M48 52V40h10v12M68 52V32h8v20M84 44l8-8 8 8" fill="none" stroke="#ccfbf1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M92 52h12" stroke="#ccfbf1" stroke-width="3" stroke-linecap="round"/>
+</svg>

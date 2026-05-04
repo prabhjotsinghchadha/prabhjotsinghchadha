@@ -8,9 +8,9 @@ export const DATA = {
     location: "MP, India",
     locationLink: "https://www.google.com/maps/place/madhyapradesh",
     description:
-        "Fractional CTO & SAAS Expert with 8 years of experience in full-stack development, payment integrations, and digital innovation.",
+        "Co-founder & CTO at MariNation (music investing), founder of Rentopilot (AI bookkeeping for landlords), and fractional CTO with 8+ years in full-stack development, payments, and digital products.",
     summary:
-        "Fractional CTO & SAAS Expert with 8 years of experience in full-stack development, payment integrations, and digital innovation. Friendly and pragmatic Fractional CTO helping startups and growing teams make smarter technology decisions. I help bridge business goals with technical strategy to deliver scalable, efficient solutions. At FPS Lounge, led a cross-functional team, boosting user engagement by 40% in just six months. Expert in Next.js, Node.js, TypeScript, Firebase, Unity game development, and digital art creation. Specialized in remote work with a professional home office setup, delivering high-quality solutions for clients worldwide.",
+        "Co-founder & CTO at MariNation—building the easiest way to earn real money from music—and founder of Rentopilot, AI bookkeeping for landlords with human oversight and tax-ready reporting. Previously fractional CTO at FPS Lounge, where I led a cross-functional team and boosted user engagement by 40% in six months. Eight years across full-stack development, payment integrations, and digital innovation: Next.js, Node.js, TypeScript, Firebase, Unity, and remote delivery for clients worldwide.",
     avatarUrl: "/me.jpeg",
 
     // Professional Stats
@@ -242,6 +242,30 @@ export const DATA = {
 
     work: [
         {
+            company: "MariNation",
+            href: "https://marination.app",
+            badges: [],
+            location: "Remote",
+            title: "Co-Founder & CTO",
+            logoUrl: "/marination.png",
+            start: "October 2025",
+            end: undefined,
+            description:
+                "Music investing platform at marination.app. The easiest way to earn real money from music—turn music knowledge into income. MariNation lets people act on what they already sense about what is next in music and get paid for it. Leading product and engineering as co-founder and CTO.",
+        },
+        {
+            company: "Rentopilot",
+            href: "https://rentopilot.com",
+            badges: [],
+            location: "Remote",
+            title: "Founder",
+            logoUrl: "/rentopilot.svg",
+            start: "October 2025",
+            end: undefined,
+            description:
+                "AI bookkeeping for landlords: automate real estate bookkeeping with AI precision and human oversight so numbers stay accurate, complete, and tax-ready all year. Founder-owned product from zero to launch.",
+        },
+        {
             company: "FPS Lounge",
             href: "https://fpslounge.com",
             badges: [],
@@ -290,10 +314,58 @@ export const DATA = {
     ],
     projects: [
         {
+            title: "MariNation — Music investing",
+            href: "https://marination.app",
+            dates: "October 2025 - Present",
+            active: true,
+            description:
+                "The easiest way to earn real money from music. Turn music knowledge into income. Your instincts already know what is next — MariNation finally lets those instincts pay you back.",
+            technologies: [
+                "Next.js",
+                "TypeScript",
+                "Product",
+                "Fintech",
+                "Music",
+            ],
+            links: [
+                {
+                    type: "Website",
+                    href: "https://marination.app",
+                    icon: <Icons.globe className="size-3" />,
+                },
+            ],
+            image: "/portfolio/marination.png",
+            video: "",
+        },
+        {
+            title: "Rentopilot — AI bookkeeping for landlords",
+            href: "https://rentopilot.com",
+            dates: "October 2025 - Present",
+            active: true,
+            description:
+                "AI bookkeeping for landlords. Automate your real estate bookkeeping with AI precision and human oversight, ensuring your numbers are accurate, complete, and tax-ready throughout the year.",
+            technologies: [
+                "Next.js",
+                "TypeScript",
+                "AI",
+                "SaaS",
+                "Real estate",
+            ],
+            links: [
+                {
+                    type: "Website",
+                    href: "https://rentopilot.com",
+                    icon: <Icons.globe className="size-3" />,
+                },
+            ],
+            image: "/portfolio/rentopilot.png",
+            video: "",
+        },
+        {
             title: "FPS Lounge Platform",
             href: "https://fpslounge.com",
             dates: "March 2023 - July 2025",
-            active: true,
+            active: false,
             description:
                 "Single-handedly built the entire platform from scratch—initially on WordPress, then migrated to React, and later Next.js for performance and scalability. Created a thriving platform where thousands of gamers book coaching sessions and earn money. Launched a highly successful course program, starting with HisWattson (a top Twitch celebrity), which led to massive sales. Expanded the platform by bringing in multiple pro gamers to offer courses in various games.",
             technologies: [

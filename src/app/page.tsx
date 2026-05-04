@@ -45,13 +45,20 @@ export default function Page() {
                             url: "https://prabhjotsinghchadha.com",
                             image: "https://prabhjotsinghchadha.com/me.jpeg",
                             description:
-                                "Fractional CTO & SAAS Expert with 8 years of experience in full-stack development, payment integrations, and digital innovation.",
-                            jobTitle: "Fractional CTO",
-                            worksFor: {
-                                "@type": "Organization",
-                                name: "MariNation",
-                                url: "https://marination.app",
-                            },
+                                "Co-founder & CTO at MariNation (music investing), founder of Rentopilot (AI bookkeeping for landlords), fractional CTO and full-stack engineer with 8+ years of experience.",
+                            jobTitle: "Co-Founder & CTO",
+                            worksFor: [
+                                {
+                                    "@type": "Organization",
+                                    name: "MariNation",
+                                    url: "https://marination.app",
+                                },
+                                {
+                                    "@type": "Organization",
+                                    name: "Rentopilot",
+                                    url: "https://rentopilot.com",
+                                },
+                            ],
                             address: {
                                 "@type": "PostalAddress",
                                 addressRegion: "Madhya Pradesh",
@@ -84,7 +91,7 @@ export default function Page() {
                             name: "Prabhjot Singh Chadha",
                             url: "https://prabhjotsinghchadha.com",
                             description:
-                                "Portfolio of Prabhjot Singh Chadha — Fractional CTO & SAAS Expert",
+                                "Portfolio of Prabhjot Singh Chadha — Co-founder & CTO at MariNation, founder of Rentopilot, fractional CTO & SAAS expert",
                             author: {
                                 "@type": "Person",
                                 name: "Prabhjot Singh Chadha",
